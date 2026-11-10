@@ -1,0 +1,11 @@
+INICIO
+    contrasena <- ""
+    MIENTRAS contrasena sea diferente de "JAVA2026"
+        ESCRIBIR "Ingrese la contraseña:"
+        LEER contrasena
+        SI contrasena sea diferente de "JAVA2026" ENTONCES
+            ESCRIBIR "Contraseña incorrecta. Intente otra vez."
+        FIN SI
+    FIN MIENTRAS
+    ESCRIBIR "¡Acceso permitido!"
+FIN

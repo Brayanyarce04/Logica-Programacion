@@ -1,0 +1,5 @@
+INICIO
+    PARA numero DESDE 1 HASTA 10
+        ESCRIBIR numero
+    FIN PARA
+FIN

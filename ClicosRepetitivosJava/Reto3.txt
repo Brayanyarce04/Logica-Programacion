@@ -1,0 +1,10 @@
+INICIO
+    sumaEdades <- 0
+    PARA i DESDE 1 HASTA 3
+        ESCRIBIR "Ingrese la edad del animal ", i, ":"
+        LEER edad
+        sumaEdades <- sumaEdades + edad
+    FIN PARA
+    promedio <- sumaEdades / 3
+    ESCRIBIR "La edad promedio de los animales es: ", promedio
+FIN
